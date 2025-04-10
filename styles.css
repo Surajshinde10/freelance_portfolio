@@ -164,10 +164,11 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
+  
+  /* display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 80vh; */
 }
 
 .section__pic-container {
