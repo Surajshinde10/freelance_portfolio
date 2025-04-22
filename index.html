@@ -7,6 +7,99 @@
     <title>Suraj Shinde</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      /* UI Improvements */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+
+      .nav-links li a,
+      .hamburger-menu li a {
+        transition: all 0.3s ease;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+
+      .nav-links li a:hover,
+      .hamburger-menu li a:hover {
+        color: #00bfa5;
+        transform: scale(1.05);
+      }
+
+      .section__text h1.title {
+        font-size: 3rem;
+        margin: 10px 0;
+        color: #333;
+      }
+
+      .section__text__p2 {
+        font-size: 1.2rem;
+        color: #00bfa5;
+        margin-bottom: 20px;
+      }
+
+      .btn-container button {
+        border-radius: 30px;
+        padding: 10px 20px;
+        margin: 10px 5px;
+        font-size: 1rem;
+        transition: background 0.3s ease, transform 0.2s ease;
+      }
+
+      .btn-color-2:hover,
+      .btn-color-1:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+
+      .project-title {
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .details-container {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        border-radius: 15px;
+        background-color: #fff;
+        padding: 20px;
+        margin: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .details-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .project-img {
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+      }
+
+      .project-img:hover {
+        transform: scale(1.02);
+      }
+
+      .icon {
+        transition: transform 0.2s ease;
+      }
+
+      .icon:hover {
+        transform: scale(1.1);
+      }
+
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -43,7 +136,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Suraj Shinde</h1>
-        <p class="section__text__p2">Flutter Developer</p>
+        <p class="section__text__p2">FullStack Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
